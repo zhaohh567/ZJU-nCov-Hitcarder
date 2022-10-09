@@ -14,7 +14,6 @@ import ddddocr
 
 class HitCarder(object):
     """Hit carder class
-
     Attributes:
         username: (str) 浙大统一认证平台用户名（一般为学号）
         password: (str) 浙大统一认证平台密码
@@ -174,7 +173,6 @@ class DecodeError(Exception):
 
 def main(username, password):
     """Hit card process
-
     Arguments:
         username: (str) 浙大统一认证平台用户名（一般为学号）
         password: (str) 浙大统一认证平台密码
